@@ -1,2 +1,54 @@
 # Previsao-de-precos-de-acoes-usando-uma-rede-neural-LSTM
 Previsão de preços de ações usando uma rede neural LSTM
+
+Este é um projeto de previsão de preços de ações usando redes neurais LSTM (Long Short-Term Memory). O projeto utiliza dados históricos de preços de ações para treinar um modelo LSTM que é capaz de fazer previsões futuras de preços.
+
+## Pré-requisitos
+
+Certifique-se de ter as seguintes bibliotecas instaladas em seu ambiente Python:
+
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- tensorflow
+- keras
+
+Você pode instalar essas bibliotecas usando o seguinte comando:
+
+pip install numpy pandas matplotlib scikit-learn tensorflow keras
+
+
+## Como Usar
+
+1. Baixe ou clone este repositório em seu ambiente local.
+
+2. Coloque o arquivo CSV contendo os dados históricos de preços de ações na mesma pasta do projeto.
+
+3. Treine o modelo (opcional):
+   - Execute o script `train_model.py` para treinar o modelo. O modelo treinado será salvo em um arquivo `modelo_treinado.h5`.
+
+4. Execute o script `make_predictions.py` para fazer previsões de preços de ações:
+   - Substitua `'caminho_para_o_arquivo.csv'` pelo caminho correto do arquivo CSV com os dados históricos.
+   - Substitua `'caminho_para_o_modelo.h5'` pelo caminho correto do modelo treinado.
+
+5. As previsões de preços de ações serão exibidas em um gráfico junto com o histórico de preços.
+
+## Arquivos e Pastas
+
+- `train_model.py`: Script para treinar o modelo LSTM com os dados históricos.
+- `make_predictions.py`: Script para fazer previsões de preços de ações usando o modelo treinado.
+- `modelo_treinado.h5`: Arquivo do modelo treinado.
+- `caminho_para_o_arquivo.csv`: Arquivo CSV contendo os dados históricos de preços de ações.
+- `README.md`: Este arquivo de documentação.
+
+## Notas
+
+- Certifique-se de ajustar os caminhos dos arquivos e outras configurações de acordo com a sua situação específica.
+- É altamente recomendável otimizar e ajustar os hiperparâmetros do modelo para obter melhores resultados de previsão.
+- Este projeto é apenas para fins educacionais e de aprendizado.
+
+
+---
+
+**Autor:** Thiago C Flausino
